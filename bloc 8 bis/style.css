@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 101.6;
+}
+
+.bloc8bis{
+    background-image: url(png/bg-faq.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bloc8bis h1{
+    font-size: 40px;
+    margin-top: 0px;
+    color: #0A0A4F;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.top-part{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bloc8bis h3{
+    color:#3575DD;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.bloc8bis h4{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+}
+
+/* Suppression spécifique de la flèche sur WebKit (Safari et Chrome) */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Style par défaut pour les questions fermées */
+summary {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    margin: 10px;
+    padding: 25px;
+    list-style: none;
+    background-color: #F1F4FE;
+    padding-left: 10px;
+    border:solid;
+    border-color: #E2E9FA;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    .b8moins{
+        display: none;
+    }
+}
+
+/* Style lorsque la question est ouverte */
+details[open] summary {
+    color: #010462;
+border: none;
+box-shadow: 0 0 25px 0 #3575dd41;
+background-color: white;
+  .b8plus{
+    display: none;
+  }
+  .b8moins{
+    display: inherit;
+  }
+}    
+
+.b8plus{
+    width: 20px;
+}
+
+.b8moins{
+    width: 20px;
+}
+
+/* Style du contenu de réponse */
+details p {
+  margin: 10px 0 0;
+  padding: 10px;
+}
+
+.b8faq{
+    display: grid;
+
+    justify-content: center;
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+    padding-bottom: 50px;
+}
+
+.bloc8bis p{
+    margin-left: 30px;
+    width: 850px;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(135, 127, 127);
+}
+
+@media screen and (max-width : 880px) {
+
+    .bloc8bis{
+        background-image: url(png/bg-faq.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .bloc8bis h1{
+        font-size: 40px;
+        margin-top: 0px;
+        color: #0A0A4F;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    
+    .top-part{
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .bloc8bis h3{
+        color:#3575DD;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 60px;
+    }
+    
+    .bloc8bis h4{
+        font-weight: 500;
+        font-size: 22px;
+        margin: 0;
+    }
+    
+    /* Suppression spécifique de la flèche sur WebKit (Safari et Chrome) */
+    summary::-webkit-details-marker {
+        display: none;
+    }
+    
+    /* Style par défaut pour les questions fermées */
+    summary {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin: 10px;
+        padding: 25px;
+        list-style: none;
+        background-color: #F1F4FE;
+        padding-left: 10px;
+        border:solid;
+        border-color: #E2E9FA;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        .b8moins{
+            display: none;
+        }
+    }
+    
+    /* Style lorsque la question est ouverte */
+    details[open] summary {
+        color: #010462;
+    border: none;
+    box-shadow: 0 0 25px 0 #3575dd41;
+    background-color: white;
+      .b8plus{
+        display: none;
+      }
+      .b8moins{
+        display: inherit;
+      }
+    }    
+    
+    .b8plus{
+        width: 20px;
+    }
+    
+    .b8moins{
+        width: 20px;
+    }
+    
+    /* Style du contenu de réponse */
+    details p {
+      margin: 10px 0 0;
+      padding: 10px;
+    }
+    
+    .b8faq{
+        display: grid;
+    
+        justify-content: center;
+        -moz-user-select: none; /* Firefox */
+        -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+        -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+        user-select: none; /* Propriété standard */
+    }
+    
+    .bloc8bis p{
+        margin-left: 30px;
+        width: 600px;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 30px;
+        color: rgb(135, 127, 127);
+    }
+}
+
+@media screen and (max-width : 600px) {
+
+    .bloc8bis{
+        background-image: unset;
+    }
+    
+    .bloc8bis h1{
+        font-size: 36px;
+        margin-top: 0px;
+        color: #0A0A4F;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    
+    .top-part{
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    .bloc8bis h3{
+        color:#3575DD;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 60px;
+    }
+    
+    .bloc8bis h4{
+        font-weight: 500;
+        font-size: 16px;
+        margin: 0;
+    }
+    
+    /* Style par défaut pour les questions fermées */
+    summary {
+        display: flex;
+        justify-content: space-between;
+        width: 325px;
+        margin: 10px;
+        padding: 25px;
+        list-style: none;
+        background-color: #F1F4FE;
+        padding-left: 10px;
+        border:solid;
+        border-color: #E2E9FA;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        .b8moins{
+            display: none;
+        }
+    }
+    
+    /* Style lorsque la question est ouverte */
+    details[open] summary {
+        color: #010462;
+    border: none;
+    box-shadow: 0 0 25px 0 #3575dd41;
+    background-color: white;
+      .b8plus{
+        display: none;
+      }
+      .b8moins{
+        display: inherit;
+      }
+    }    
+    
+    .b8plus{
+        width: 18px;
+    }
+    
+    .b8moins{
+        width: 18px;
+    }
+    
+    /* Style du contenu de réponse */
+    details p {
+      margin: 10px 0 0;
+      padding: 10px;
+    }
+    
+    .bloc8bis p{
+        margin-left: 30px;
+        width: 325px;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 30px;
+        color: rgb(135, 127, 127);
+    }
+}
