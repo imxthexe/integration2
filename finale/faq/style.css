@@ -21,7 +21,7 @@ body{
 
 .bloc1{
     padding-left: 20%;
-    background-image: url(png2/bgslider.jpg);
+    background-image: url(png/bgslider.jpg);
     background-repeat: no-repeat;
     background-position:bottom;
     background-size: cover ;
@@ -33,11 +33,19 @@ body{
 
 .logoBloc1{
     flex: 1;
-    margin-top: 26px;
+    margin-top: 18px;
 }
 
 .logoBloc1 img{
-    width: 110px;
+    width: 90px;
+}
+
+.logoBloc1 h1{
+    color: #0B155F;
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-bottom: 50px;
 }
 
 .menuBloc1{
@@ -45,14 +53,14 @@ body{
     font-weight: 500;
     font-size: 16px;
     margin-top: 26px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
 }
 
 .menuBloc1 a{
     text-decoration: none;
     color: #000060;
+    margin: 0 30px 0 30px;
 }
 
 .menuBloc1 a:hover{
@@ -83,122 +91,326 @@ body{
     transition: 0.5s;
 }
 
-.contactBloc1 img{
-    width: 28px;
-    margin-left: 4px;
-    margin-bottom: -9px;
+.contactButtonBloc1 img{
+    margin-bottom: -10px;
+    padding-left: 8px ;
+}
+
+.flechePage img{
+    width: 18px;
+}
+
+.textPartSousContact a{
+    margin: 0;
+    padding: 0 8px 12px;
+    text-decoration: none;
+    color: #000060;
+    font-weight: 500;
 }
 
 
-@media screen and (max-width :800px) {
-    .bloc1{
-        padding-left: 20px;
-        background-image: url(png/bgslider.jpg);
+.textPartSousContact {
+    display: flex;
+    padding-top: 70px;
+
+}
+
+
+.bloc8bis{
+    background-image: url(png/bg-faq.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bloc8bis h1{
+    font-size: 40px;
+    margin-top: 0px;
+    color: #0A0A4F;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.top-part{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bloc8bis h3{
+    color:#3575DD;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.bloc8bis h4{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+}
+
+/* Suppression spécifique de la flèche sur WebKit (Safari et Chrome) */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Style par défaut pour les questions fermées */
+summary {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    margin: 10px;
+    padding: 25px;
+    list-style: none;
+    background-color: #F1F4FE;
+    padding-left: 10px;
+    border:solid;
+    border-color: #E2E9FA;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    .b8moins{
+        display: none;
+    }
+}
+
+/* Style lorsque la question est ouverte */
+details[open] summary {
+    color: #010462;
+border: none;
+box-shadow: 0 0 25px 0 #3575dd41;
+background-color: white;
+  .b8plus{
+    display: none;
+  }
+  .b8moins{
+    display: inherit;
+  }
+}    
+
+.b8plus{
+    width: 20px;
+}
+
+.b8moins{
+    width: 20px;
+}
+
+/* Style du contenu de réponse */
+details p {
+  margin: 10px 0 0;
+  padding: 10px;
+}
+
+.b8faq{
+    display: grid;
+
+    justify-content: center;
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+    padding-bottom: 50px;
+}
+
+.bloc8bis p{
+    margin-left: 30px;
+    width: 850px;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(135, 127, 127);
+}
+
+@media screen and (max-width : 880px) {
+
+    .bloc8bis{
+        background-image: url(png/bg-faq.png);
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position:bottom;
-        background-size: cover ;
-        height: 855px;
     }
     
-    .headerBloc1{
-        display: flex;
+    .bloc8bis h1{
+        font-size: 40px;
+        margin-top: 0px;
+        color: #0A0A4F;
+        font-weight: 700;
+        margin-bottom: 0;
     }
     
-    .logoBloc1{
-        flex: 1.5;
-        margin-top: 26px;
+    .top-part{
+        margin-top: 100px;
+        text-align: center;
     }
     
-    .logoBloc1 img{
-        width: 110px;
+    .bloc8bis h3{
+        color:#3575DD;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 60px;
     }
     
-    .menuBloc1{
-        display: none
+    .bloc8bis h4{
+        font-weight: 500;
+        font-size: 22px;
+        margin: 0;
     }
     
-    .headerBloc1 .contactBloc1{
+    /* Suppression spécifique de la flèche sur WebKit (Safari et Chrome) */
+    summary::-webkit-details-marker {
         display: none;
     }
     
-    .contactBloc1 button{
-        border:none;
-        border-radius: 4px;
-        background-color: #2767F6;
-        color: white;
-        font-family: "Fredoka", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 16px;
-        padding: 7px 18px 12px 28px;
-        transition: 0.5s;
-    }
-    
-    .contactBloc1 button:hover{
-        font-size: 16px;
-        transition: 0.5s;
-    }
-    
-    .contactBloc1 img{
-        width: 28px;
-        margin-left: 4px;
-        margin-bottom: -9px;
-    }
-    
-    .mainBloc1{
+    /* Style par défaut pour les questions fermées */
+    summary {
         display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin: 10px;
+        padding: 25px;
+        list-style: none;
+        background-color: #F1F4FE;
+        padding-left: 10px;
+        border:solid;
+        border-color: #E2E9FA;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        .b8moins{
+            display: none;
+        }
     }
     
-    .textPart{
-        position: absolute;
-        margin-right: 30%;
+    /* Style lorsque la question est ouverte */
+    details[open] summary {
+        color: #010462;
+    border: none;
+    box-shadow: 0 0 25px 0 #3575dd41;
+    background-color: white;
+      .b8plus{
+        display: none;
+      }
+      .b8moins{
+        display: inherit;
+      }
+    }    
+    
+    .b8plus{
+        width: 20px;
     }
     
-    .textPart h1{
-        font-weight: 500;
-        font-size: 70px;
-        margin-top: 68px;
-        margin-bottom: 0;
-        color: #000060;
-        line-height: 1.1;
+    .b8moins{
+        width: 20px;
     }
     
-    .textPart p{
-        margin-top: 18px;
-        color:#000060 ;
-        line-height: 1.5;
-        margin-bottom: 36px;
+    /* Style du contenu de réponse */
+    details p {
+      margin: 10px 0 0;
+      padding: 10px;
     }
     
-    .textPart img{
-        width: 28px;
-        margin-left: 4px;
-        margin-bottom: -9px;
+    .b8faq{
+        display: grid;
+    
+        justify-content: center;
+        -moz-user-select: none; /* Firefox */
+        -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+        -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+        user-select: none; /* Propriété standard */
     }
     
-    .illustrationBloc1{
-        flex: 2;
-        justify-content: right;
-        text-align: right;
-        margin-top: -70px;
-        overflow: hidden;
-    }
-    
-    .illustrationBloc1 img{
-        width: 682px;
-        margin-right: -46%;
-        padding-bottom: 130px;
+    .bloc8bis p{
+        margin-left: 30px;
+        width: 600px;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 30px;
+        color: rgb(135, 127, 127);
     }
 }
 
-@media screen and (max-width :630px){
-    .illustrationBloc1{
-        display: none;
-    }
+@media screen and (max-width : 600px) {
 
-    .textPart{
-        position: static;
-        margin-right: 0;
+    .bloc8bis{
+        background-image: unset;
+    }
+    
+    .bloc8bis h1{
+        font-size: 36px;
+        margin-top: 0px;
+        color: #0A0A4F;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    
+    .top-part{
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    .bloc8bis h3{
+        color:#3575DD;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 60px;
+    }
+    
+    .bloc8bis h4{
+        font-weight: 500;
+        font-size: 16px;
+        margin: 0;
+    }
+    
+    /* Style par défaut pour les questions fermées */
+    summary {
+        display: flex;
+        justify-content: space-between;
+        width: 325px;
+        margin: 10px;
+        padding: 25px;
+        list-style: none;
+        background-color: #F1F4FE;
+        padding-left: 10px;
+        border:solid;
+        border-color: #E2E9FA;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        .b8moins{
+            display: none;
+        }
+    }
+    
+    /* Style lorsque la question est ouverte */
+    details[open] summary {
+        color: #010462;
+    border: none;
+    box-shadow: 0 0 25px 0 #3575dd41;
+    background-color: white;
+      .b8plus{
+        display: none;
+      }
+      .b8moins{
+        display: inherit;
+      }
+    }    
+    
+    .b8plus{
+        width: 18px;
+    }
+    
+    .b8moins{
+        width: 18px;
+    }
+    
+    /* Style du contenu de réponse */
+    details p {
+      margin: 10px 0 0;
+      padding: 10px;
+    }
+    
+    .bloc8bis p{
+        margin-left: 30px;
+        width: 325px;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 30px;
+        color: rgb(135, 127, 127);
     }
 }
