@@ -53,7 +53,7 @@ body{
     justify-content: space-between;
 }
 
-.trois-barres{
+.menuResponsive{
     display: none;
 }
 
@@ -165,13 +165,14 @@ body{
         display: none
     }
 
-    .trois-barres{
-        display: initial;
-        margin: 26px;
+    .menuResponsive{
+        display: inherit;
+        padding-top: 26px;
+        padding-right: 26px;
     }
-
-    .trois-barres img{
-        width: 40px;
+    
+    .menuResponsive img{
+        width: 28px;
     }
     
     .headerBloc1 .contactBloc1{

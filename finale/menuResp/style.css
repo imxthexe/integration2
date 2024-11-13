@@ -1,0 +1,26 @@
+body{
+    margin: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 101.6;
+}
+
+h1{
+    color: #0B155F;
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: #000060;
+}
+
+hr{
+    margin: 30px 0 30px 0;
+}
+

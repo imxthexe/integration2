@@ -58,6 +58,10 @@ body{
     justify-content: space-between;
 }
 
+.menuResponsive{
+    display: none;
+}
+
 .menuBloc1 a{
     text-decoration: none;
     color: #000060;
@@ -144,4 +148,15 @@ body{
     .headerBloc1 .contactBloc1{
         display: none;
     }
+
+    .menuResponsive{
+        display: inherit;
+        padding-top: 26px;
+        padding-right: 26px;
+    }
+    
+    .menuResponsive img{
+        width: 28px;
+    }
+
 }
