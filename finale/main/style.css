@@ -16,10 +16,13 @@ body{
     padding-top: 9px;
     padding-bottom: 9px;
     color: white;
-    width: 100%;   
+    width: 100%; 
+    position: fixed;
+    
 }
 
 .bloc1{
+    padding-top: 36px;
     padding-left: 20%;
     background-image: url(png/bgslider.jpg);
     background-repeat: no-repeat;
