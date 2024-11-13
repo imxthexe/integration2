@@ -1054,7 +1054,17 @@ body{
 }
 
 .copyright{
-    display: none;
+    text-align: center;
+    display: initial;
+    
+}
+
+.copyright p{
+    font-size: 11px;
+    color: grey;
+    background-color: rgba(128, 128, 128, 0.096);
+    margin: 0;
+    padding: 14px 0 14px 0;
 }
 
 @media screen and (max-width:1185px){
@@ -1109,17 +1119,4 @@ body{
         min-width: 196px;
     }
 
-    .copyright{
-        text-align: center;
-        display: initial;
-        
-    }
-
-    .copyright p{
-        font-size: 11px;
-        color: grey;
-        background-color: rgba(128, 128, 128, 0.096);
-        margin: 0;
-        padding: 14px 0 14px 0;
-    }
 }
