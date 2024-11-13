@@ -6,6 +6,10 @@ body{
     font-style: normal;
     font-variation-settings:
     "wdth" 101.6;
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
 }
 
 .blueQuote p{
@@ -17,9 +21,11 @@ body{
     padding-bottom: 9px;
     color: white;
     width: 100%;   
+    position: fixed;
 }
 
 .bloc1{
+    padding-top: 36px;
     padding-left: 20%;
     background-image: url(png/bgslider.jpg);
     background-repeat: no-repeat;
@@ -42,7 +48,7 @@ body{
 
 .logoBloc1 h1{
     color: #0B155F;
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 500;
     margin-top: 10px;
     padding-bottom: 50px;
