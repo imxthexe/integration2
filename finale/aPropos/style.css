@@ -257,21 +257,15 @@ body{
     font-family: Nunito Sans;
     font-size: 20px;
 }
-<<<<<<< Updated upstream
-.BlocsBloc3{
 
-}
-.boxService1{
-=======
 .services-grid {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 .service-box{
->>>>>>> Stashed changes
     width: 300px;
-    padding: 25px 150px 10px 35px;
+    padding: 5px 100px 0px 35px;
     margin: 20px 20px;
     background-color: #f9f9f9; 
     border: 1px solid #ddd; 
@@ -306,6 +300,54 @@ body{
     line-height: 2;
     font-size: 19px;
     width: 250px;
+}
+.bloc4{
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: -240px;
+}
+.bloc4perso{
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: #FFFFFF;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.bloc4perso h2{
+    color: #000060;
+    font-family: Quicksand;
+}
+.bloc4perso p{
+    color: #2767F6;
+    font-family: Nunito Sans;
+}
+.bloc5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.numberbloc5{
+    background-color: #2767F6;
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.numberbloc5 h1{
+    color: white;
+    font-family: Quicksand;
+}
+.numberbloc5 p{
+    color: white;
+    font-family: Nunito Sans;
 }
   
 @media screen and (max-width :800px) {
