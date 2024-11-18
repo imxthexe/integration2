@@ -236,56 +236,75 @@ body{
 }
 .bloc3{
     background-image: url(png/bg-facts.png);
+    background-size: 105%;
     background-color: #2767F6;
-    background-repeat: no repeat;
     margin-top: 150px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    
 }
 .headerbloc3{
     text-align: center;
     color: white;
+    padding-bottom: 25px;
 }
 .headerbloc3 h1{
     padding-top: 100px;
     font-family: Quicksand;
+    font-size: 45px;
 }
 .headerbloc3 p{
     font-family: Nunito Sans;
+    font-size: 20px;
 }
+<<<<<<< Updated upstream
 .BlocsBloc3{
 
 }
 .boxService1{
+=======
+.services-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.service-box{
+>>>>>>> Stashed changes
     width: 300px;
-    padding: 25px 100px 10px 35px;
-    margin: 10px auto; 
+    padding: 25px 150px 10px 35px;
+    margin: 20px 20px;
     background-color: #f9f9f9; 
     border: 1px solid #ddd; 
     border-radius: 8px; 
     display: flex;
 }
-.imgServices{
+
+.imgbox{
     flex: 1;
 }
-.imgServices img{
-    padding-top: 50px;
+.service-box img{
+    padding-top: 40px;
+    width: 75px;
+    padding-right: 25px;
 }
-.textServices{
+.texpartbox{
     flex: 1;
-    padding-left: 15px;
 }
-.textServices h1{
+.service-box h3{
     color: #000060;
     font-weight: 700;
     font-family: Quicksand;
     margin: 0;
     padding-bottom: -5px;
+    font-size: 25px;
+    padding-top: 20px;
     
 }
-.textServices p{
+.service-box p{
     font-family: Nunito Sans;
     color: grey;
     line-height: 2;
-    font-size: 18px;
+    font-size: 19px;
     width: 250px;
 }
   
