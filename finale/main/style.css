@@ -1,11 +1,9 @@
 body{
     margin: 0;
-    font-family: "Fredoka", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    font-variation-settings:
-    "wdth" 101.6;
     -moz-user-select: none; /* Firefox */
     -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
     -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
@@ -46,7 +44,7 @@ body{
 
 .menuBloc1{
     flex: 1;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     margin-top: 26px;
     display: grid;
@@ -77,9 +75,9 @@ body{
     border-radius: 4px;
     background-color: #2767F6;
     color: white;
-    font-family: "Fredoka", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 16px;
     padding: 7px 18px 12px 28px;
@@ -106,7 +104,7 @@ body{
 }
 
 .textPart h1{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 70px;
     margin-top: 68px;
     margin-bottom: 0;
@@ -1159,6 +1157,10 @@ body{
     padding-top: 0;
     margin-top: 0;
     font-weight: 400;
+}
+
+.numberPress{
+    margin-right: 50px;
 }
 
 .formulaireBloc4-2withLine{
