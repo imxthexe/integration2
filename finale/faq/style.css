@@ -1,11 +1,9 @@
 body{
     margin: 0;
-    font-family: "Fredoka", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    font-variation-settings:
-    "wdth" 101.6;
     -moz-user-select: none; /* Firefox */
     -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
     -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
@@ -47,14 +45,14 @@ body{
 .logoBloc1 h1{
     color: #0B155F;
     font-size: 46px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 10px;
     padding-bottom: 50px;
 }
 
 .menuBloc1{
     flex: 1;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     margin-top: 26px;
     display: grid;
@@ -114,7 +112,7 @@ body{
     padding: 0 8px 12px;
     text-decoration: none;
     color: #000060;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 
@@ -190,12 +188,13 @@ body{
 .bloc8bis h3{
     color:#3575DD;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 60px;
 }
 
 .bloc8bis h4{
-    font-weight: 500;
+    color: #010462;
+    font-weight: 700;
     font-size: 22px;
     margin: 0;
 }
@@ -219,6 +218,7 @@ summary {
     border-color: #E2E9FA;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-weight: 700;
     .b8moins{
         display: none;
     }
@@ -230,6 +230,7 @@ details[open] summary {
 border: none;
 box-shadow: 0 0 25px 0 #3575dd41;
 background-color: white;
+font-weight: 700;
   .b8plus{
     display: none;
   }
