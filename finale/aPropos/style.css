@@ -19,7 +19,7 @@ body{
     padding-bottom: 9px;
     color: white;
     width: 100%;   
-    position: fixed;
+ 
 }
 
 .bloc1{
@@ -123,6 +123,47 @@ body{
 
 }
 
+@media screen and (max-width :800px) {
+    .bloc1{
+        padding-left: 20px;
+        background-image: url(png/bgslider.jpg);
+        background-repeat: no-repeat;
+        background-position:bottom;
+        background-size: cover ;
+    }
+    
+    .headerBloc1{
+        display: flex;
+    }
+    
+    .logoBloc1{
+        flex: 1.5;
+        margin-top: 26px;
+    }
+    
+    .logoBloc1 img{
+        width: 110px;
+    }
+    
+    .menuBloc1{
+        display: none
+    }
+    
+    .headerBloc1 .contactBloc1{
+        display: none;
+    }
+
+    .menuResponsive{
+        display: inherit;
+        padding-top: 26px;
+        padding-right: 26px;
+    }
+    
+    .menuResponsive img{
+        width: 28px;
+    }
+
+}
 
 .bloc2{
     display: flex;
@@ -232,6 +273,77 @@ body{
     padding: 20px 20px;
     border-radius: 2px;
 }
+@media screen and (max-width :768px){
+    .bloc2{
+        display: inline;
+        
+        
+    }
+    .leftpartbloc2{
+        padding-left: 20px;
+    }
+    .title h1{
+        font-weight: 700;
+        font-size: 43px;
+        color: #0B155F;
+        font-family: Quicksand;
+        margin: 0;
+        width: 500px;
+    }
+    .title h2{
+        color: #2767F6;
+        font-size: 17px;
+        padding-top: 10px;
+        font-weight: 400;
+    }
+    .title{
+        margin: 0;
+    }
+    .buttonBloc2{
+        padding-top: 4%;
+    }
+    .buttonBloc2 button{
+        border:none;
+        border-radius: 4px;
+        background-color: #2767F6;
+        color: white;
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        padding: 10px 285px;
+        transition: 0.5s;
+        text-decoration: none;
+        
+    }
+    .image{
+        margin-right: 25%;
+        padding-left: 50px;
+    }
+    .image img{
+        width: 550px;
+        padding-left: 70px;
+        
+    }
+    .buttonBloc2 img{
+        width: 30px;
+        margin-bottom: -10px;
+        
+    }
+    .image2{
+        margin-top: -425px;
+        margin-right: 40px;
+        position: absolute;
+        right: 0;
+     }
+     .image2 img{
+         background-color: #2767F6;
+         width: 15px;
+         padding: 20px 20px;
+         border-radius: 2px;
+     }
+}
 .bloc3{
     background-image: url(png/bg-facts.png);
     background-size: 105%;
@@ -250,6 +362,7 @@ body{
     padding-top: 100px;
     font-family: Quicksand;
     font-size: 45px;
+    
 }
 .headerbloc3 p{
     font-family: Nunito Sans;
@@ -260,6 +373,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
   }
 .service-box{
     width: 300px;
@@ -298,6 +412,75 @@ body{
     line-height: 2;
     font-size: 19px;
     width: 250px;
+}
+@media screen and (max-width :768px){
+    .bloc3{
+        background-image: url(png/bg-facts.png);
+        background-size: 105%;
+        background-color: #2767F6;
+        margin-top: 150px;
+        height: 1000px;
+        background-repeat: no-repeat;
+    
+    }
+    .headerbloc3{
+        text-align: center;
+        color: white;
+        padding-bottom: 25px;
+    }
+    .headerbloc3 h1{
+        padding-top: 100px;
+        font-family: Quicksand;
+        font-size: 45px;
+        
+    }
+    .headerbloc3 p{
+        font-family: Nunito Sans;
+        font-size: 20px;
+    }
+    
+    .services-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+       
+      }
+    .service-box{
+        width: 300px;
+        padding: 5px 70px 0px 30px;
+        margin: 10px 10px;
+        background-color: #f9f9f9; 
+        border: 1px solid #ddd; 
+        border-radius: 8px; 
+       
+    }
+    
+    
+    .service-box img{
+        padding-top: 40px;
+        width: 75px;
+        padding-right: 25px;
+    }
+   
+    .service-box h3{
+        color: #000060;
+        font-weight: 700;
+        font-family: Quicksand;
+        margin: 0;
+        padding-bottom: -5px;
+        font-size: 25px;
+        padding-top: 20px;
+        
+    }
+    .service-box p{
+        font-family: Nunito Sans;
+        color: grey;
+        line-height: 2;
+        font-size: 19px;
+        width: 250px;
+    }
+
 }
 .bloc4{
    justify-content: center;
@@ -360,6 +543,7 @@ body{
     width: 470px;
     font-family: Quicksand;
     color: #000060;
+    
 }
 .leftpartbloc6 h4{
     font-size: 20px;
@@ -432,7 +616,6 @@ details p {
 
 .b8faq{
     display: grid;
-
     justify-content: center;
     -moz-user-select: none; /* Firefox */
     -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
@@ -443,6 +626,63 @@ details p {
 .rightpartbloc6{
     flex: 1;
     margin-top: 50px;
+}
+@media screen and (max-width :768px){
+    .bloc6{
+        display: inline;
+        margin-top: 100px;
+    }
+    .leftpartbloc6{
+      
+        margin-left: 40px;
+    }
+    .leftpartbloc6 h1{
+        font-size: 50px;
+        
+        font-family: Quicksand;
+        color: #000060;
+        
+    }
+    .headleftpartbloc6 p{
+        color: #2767F6;
+        font-family: Nunito Sans;
+        font-size: 20px;
+    }
+    .leftpartbloc6 h1{
+        font-size: 40px;
+        width: 100%;
+        font-family: Quicksand;
+        color: #000060;
+    }
+    
+    .leftpartbloc6 p{
+        color: grey;
+        line-height: 2 ;
+        font-size: 15px;
+        width: 650px;
+    }
+    summary {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin: 10px;
+        padding:  0px 20px;
+        list-style: none;
+        background-color: #FFFFFF   ;
+        padding-left: 10px;
+        border:solid;
+        border-color: #FFFFFF;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        .b8moins{
+            display: none;
+        }
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .rightpartbloc6{
+       margin-left: 100px;
+        margin-top: 50px;
+    }
 }
 .bloc7{
     margin-top: 80px;
@@ -462,7 +702,6 @@ details p {
     background-repeat: no-repeat; 
     background-position: center; 
 }
-
 .textPartSection1Bloc7{
     flex: 3;
     padding-left: 20%;
@@ -607,45 +846,41 @@ details p {
     padding: 14px 0 14px 0;
 }
 
-  
-@media screen and (max-width :800px) {
-    .bloc1{
-        padding-left: 20px;
-        background-image: url(png/bgslider.jpg);
-        background-repeat: no-repeat;
-        background-position:bottom;
-        background-size: cover ;
+@media screen and (max-width :768px){
+    .bloc7{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .bloc7 h1,h2,h3{
+        font-family: Quicksand;
+    }
+    .bloc7 p{
+        font-family: Nunito sans;
+    }
+    .section1Bloc7{
+        display: grid;
+        background-color: #0B155F;
+        background-image: url(png/bg-3.png);
+        background-size: 90%; 
+        background-repeat: no-repeat; 
+        background-position: center; 
     }
     
-    .headerBloc1{
-        display: flex;
+    .textPartSection1Bloc7{
+        flex: 3;
+        padding-left: 5%;
     }
     
-    .logoBloc1{
-        flex: 1.5;
-        margin-top: 26px;
+    .imageSection1Bloc7{
+        flex: 1;
+        padding-right: 15%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 200px;
     }
     
-    .logoBloc1 img{
-        width: 110px;
+    .imageSection1Bloc7 img{
+        width: 350px;
     }
     
-    .menuBloc1{
-        display: none
-    }
-    
-    .headerBloc1 .contactBloc1{
-        display: none;
-    }
-
-    .menuResponsive{
-        display: inherit;
-        padding-top: 26px;
-        padding-right: 26px;
-    }
-    
-    .menuResponsive img{
-        width: 28px;
-    }
-
-}
+}  
