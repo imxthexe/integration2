@@ -255,7 +255,6 @@ details p {
 
 .b8faq{
     display: grid;
-
     justify-content: center;
     -moz-user-select: none; /* Firefox */
     -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
