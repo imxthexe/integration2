@@ -728,21 +728,26 @@ body{
      }
 }
 .bloc5{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+   margin: 150px 200px
+}
+.backgroundbloc5{
     
+    background-color: #005CF2;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
 }
 .numberbloc5{
-    background-color: #2767F6;
-    margin-top: 100px;
-    padding-left: 5%;
-    padding-right: 5%;
+    flex: 1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
     
 }
 .numberbloc5 h1{
     color: white;
     font-family: Quicksand;
+    
 }
 .numberbloc5 p{
     color: white;
