@@ -274,6 +274,22 @@ body{
 
 .pictureBloc22 {
     flex:1;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    animation: moveBack 1s ease-in-out infinite alternate;
+}
+
+@keyframes moveBack {
+    0% {
+        transform: translateY(0); /
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+    100%{
+        transform: translateY(10px); 
+    }
 }
   
 .greenshapeBloc22{
@@ -382,6 +398,9 @@ body{
     
     .pictureBloc22 {
         flex:1;
+        animation: unset;
+        display: unset;
+        margin-top: 0;
     }
       
     .greenshapeBloc22{
