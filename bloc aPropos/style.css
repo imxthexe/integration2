@@ -340,6 +340,7 @@ body{
     .services-grid .service-box2{
         display: none;
     }
+
 }
 
 .service-box{
@@ -352,15 +353,24 @@ body{
     display: flex;
 }
 
-.service-box2{    
+.service-box3{
+    width: 300px;
+    padding: 5px 70px 12px 35px;
+    margin: 20px auto 20px auto;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
     display: flex;
+}
+
+.service-box2{    
     width: 300px;
     padding: 5px 70px 12px 35px;
     margin: 20px 20px;
     background-color: #f9f9f9; 
     border: 1px solid #ddd; 
     border-radius: 4px; 
-    display: inherit;
+    display: flex;
 }
 
 
@@ -381,6 +391,12 @@ body{
 }
 
 .service-box2 img{
+    padding-top: 34px;
+    width: 50px;
+    padding-right: 25px;
+}
+
+.service-box3 img{
     padding-top: 34px;
     width: 50px;
     padding-right: 25px;
