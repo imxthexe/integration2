@@ -347,6 +347,13 @@ body{
     flex-wrap: wrap;
     margin-top: -200px;
 }
+
+@media screen and (max-width : 1700px) {
+    .profilPicturePresentation{
+        margin-top: -80px;
+    }
+}
+
 .ppPres{
     margin-left: 40px;
     padding-left: 40px;
@@ -403,11 +410,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
-    margin-left: 400px;
 }
 .leftpartbloc6{
-    flex: 1;
-    
+    width: 600px;
+    margin: 0 0 0 auto;
 }
 .leftpartbloc6 h1{
     font-size: 50px;
@@ -496,22 +502,24 @@ details p {
 }
 
 .rightPartBloc6{
+    
     position: initial;
-    flex: 1;
-    width: 800px;
+    margin: 0 auto 0 0;
+    width: 600px;
+    height: 585px;
     margin-top: 50px;
 }
 
 .rightPartBloc6 .anneau{
     position: absolute;
     z-index: 3;
-    margin-left: -80px;
+    margin-left: 0px;
 }
 
 .rightPartBloc6 .sphereJaune{
     position: absolute;
     z-index: 3;
-    margin-left: 526px;
+    margin-left: 576px;
     margin-top: 48px;
 }
 
@@ -519,6 +527,7 @@ details p {
     position: absolute;
     z-index: 2;
     margin: 0 auto;
+    margin-left: 50px;
 }
 
 .rightPartBloc6 .illustration img{
@@ -527,16 +536,16 @@ details p {
 
 .rightPartBloc6 .triangleBleu{
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     margin-top: 530px;
-    margin-left: -60px;
+    margin-left: 0px;
 }
 
 .rightPartBloc6 .triangleViolet{
     position: absolute;
     z-index: 1;
-    margin-top: 480px;
-    margin-left: 500px;
+    margin-top: 490px;
+    margin-left: 530px;
 }
 
 .bloc7{
