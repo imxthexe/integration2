@@ -6,6 +6,10 @@ body{
     font-style: normal;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .returnUp{
     background-color: #2767F6;
     padding: 20px;
